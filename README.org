@@ -1,0 +1,3 @@
+* Introduction
+These scripts are used in my nix configuration as a flake to provide to
+hyprland's keyboard daemon. Some of these are not written by me.
