@@ -1,6 +1,6 @@
 #/usr/bin/env bash
 # author: Andrei S
-response=$(printf "Poweroff\nReboot\nSuspend" | wofi --show --prompt "Power Command")
+response=$(printf "Poweroff\nReboot\nSuspend" | wofi --show dmenu --prompt "Power Command")
 
 if [ $response = "Poweroff" ]; then
     systemctl poweroff
